@@ -1,9 +1,7 @@
 **Note:** 1. Please specify the port you want to use to serve the flask 
 app on                      
-          2. The -d in the command to create and run the container denotes 
-'detached mode'.         
-             This allows us to access the webpages else is provides error 
-message'page not found'.  
+          2. The -d in the  denotes 'detached mode'. 
+             When detached mode is not used the browser displays a message 'page not found'.  
                                                                                                     
 Command to create and run container:                                                                
 docker run -d -p 8000:8000 flask-server                                                             
